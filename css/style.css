@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+}
+
+
+
+.btn-agendar {
+    background-color: #bb0000;
+    color: white;
+}
+
+.btn-agendar:hover {
+    background-color: #920000;
+    color: white;
+}
+
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: #dddddd !important;
+}
+
+
+.hero-banner{
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+}
+
+.hero-banner h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+}
+
+.hero-banner p{
+    font-size: 1.4rem;
+    margin: 20px 0;
+    color: white;
+}
+
+.hero-img{
+    max-width: 100%;
+    height: auto;
+}
+
+.servicos{
+    background-color: #111;
+    color: white;
+}
+
+.subtitulo{
+    color: #dc3545;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.titulo-section{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.card-servico{
+
+    background-color: #1a1a1a;
+
+    border-radius: 15px;
+
+    padding: 30px;
+
+    text-align: center;
+
+    height: 100%;
+
+    transition: .3s;
+}
+
+.card-servico:hover{
+
+    transform: translateY(-10px);
+
+    border: 1px solid #dc3545;
+}
+
+.card-servico h3{
+
+    font-size: 1.3rem;
+
+    margin-bottom: 20px;
+
+    min-height: 60px;
+}
+
+.tempo{
+
+    color: #ccc;
+
+    margin-bottom: 10px;
+}
+
+.preco{
+
+    color: #dc3545;
+
+    font-size: 2rem;
+
+    font-weight: bold;
+}
+
+footer{
+    p{
+        color: white;
+    }
+}
+
+.sobre{
+    background-color: #111;
+    color: white;
+}
+
+.foto-ariel{
+
+    max-width: 400px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 0 30px rgba(214,40,40,.3);
+}
+
+.subtitulo{
+
+    color: #dc3545;
+
+    font-weight: 600;
+
+    letter-spacing: 3px;
+}
+
+.sobre h2{
+
+    font-size: 3rem;
+
+    font-weight: 700;
+
+    margin-bottom: 25px;
+}
+
+.sobre p{
+
+    color: #d1d1d1;
+
+    line-height: 1.8;
+}
