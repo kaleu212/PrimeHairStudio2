@@ -1,8 +1,8 @@
 <?php
-$host = "192.168.56.1";
+$host = "192.168.56.101";
 $user = "kaleu";
 $pass = "kaka4488";
-$db   = "prime_hair_studio";
+$db   = "prime hair studio";
 
 $conn = new mysqli($host, $user, $pass, $db);
 
