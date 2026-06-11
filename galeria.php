@@ -9,9 +9,6 @@ $resultado = $conn->query($sql);
 
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<!DOCTYPE html>
-<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,52 +23,52 @@ $resultado = $conn->query($sql);
 
 <body>
 
-<?php include("paginas/header.php"); ?>
+    <?php include("paginas/header.php"); ?>
 
-<div class="container py-5">
+    <div class="container py-5">
 
-    <h2 class="text-center mb-5">
-        Galeria de Cortes
-    </h2>
+        <h2 class="text-center mb-5">
+            Galeria de Cortes
+        </h2>
 
-    <div class="row">
+        <div class="row">
 
-        <?php while($corte = $resultado->fetch_assoc()): ?>
+            <?php while ($corte = $resultado->fetch_assoc()): ?>
 
-            <div class="col-md-4 mb-4">
+                <div class="col-md-4 mb-4">
 
-                <div class="card h-100 shadow">
+                    <div class="card h-100 shadow">
 
-                    <img
-                        src="img/galeria/<?= $corte['imagem']; ?>"
-                        class="card-img-top"
-                        alt="<?= $corte['titulo']; ?>"
-                        style="height:300px; object-fit:cover;">
+                        <img
+                            src="img/galeria/<?= $corte['imagem']; ?>"
+                            class="card-img-top"
+                            alt="<?= $corte['titulo']; ?>"
+                            style="height:300px; object-fit:cover;">
 
-                    <div class="card-body">
+                        <div class="card-body">
 
-                        <h5 class="card-title">
-                            <?= $corte['titulo']; ?>
-                        </h5>
+                            <h5 class="card-title">
+                                <?= $corte['titulo']; ?>
+                            </h5>
 
-                        <p class="card-text">
-                            Categoria:
-                            <?= ucfirst($corte['categoria']); ?>
-                        </p>
+                            <p class="card-text">
+                                Categoria:
+                                <?= ucfirst($corte['categoria']); ?>
+                            </p>
+
+                        </div>
 
                     </div>
 
                 </div>
 
-            </div>
+            <?php endwhile; ?>
 
-        <?php endwhile; ?>
+        </div>
 
     </div>
-
-</div>
-<?php include("paginas/footer.php"); ?>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <?php include("paginas/footer.php"); ?>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
