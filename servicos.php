@@ -2,8 +2,8 @@
 
 $servicos = [
     [
-        "nome" => "Barba",
-        "categoria" => "barba",
+        "nome" => "Cabelo",
+        "categoria" => "cabelo",
         "tempo" => "30 min",
         "preco" => 60
     ],
