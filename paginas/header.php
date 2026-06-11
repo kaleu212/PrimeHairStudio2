@@ -37,12 +37,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="index.php#servicos">Serviços</a>
                         </li>
-                        <li>
-                            <a href="galeria.php">
-                                Galeria
-                            </a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="galeria.php">Galeria</a>
                         </li>
-
                         <li class="nav-item">
                             <a class="nav-link" href="sobre.php">Sobre</a>
                         </li>
