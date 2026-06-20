@@ -45,7 +45,7 @@ if ($categoria != "") {
                         </p>
 
                         <div class="text-center text-lg-start">
-                            <a href="#" class="btn btn-danger btn-lg">
+                            <a href="https://wa.me/5544999259339" class="btn btn-danger btn-lg">
                                 Agendar Online
                             </a>
                         </div>

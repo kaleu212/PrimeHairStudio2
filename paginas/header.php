@@ -47,7 +47,7 @@
                     </ul>
 
                     <div class="d-flex me-5">
-                        <a href="#" class="btn btn-danger">
+                        <a href="https://wa.me/5544999259339" class="btn btn-danger">
                             Agendar horário
                         </a>
                     </div>
