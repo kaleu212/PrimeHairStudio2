@@ -21,13 +21,13 @@ $resultado = $conn->query($sql);
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body class="bg-dark">
 
     <?php include("paginas/header.php"); ?>
 
     <div class="container py-5">
 
-        <h2 class="text-center mb-5">
+        <h2 class="text-center text-white mb-5">
             Galeria de Cortes
         </h2>
 
